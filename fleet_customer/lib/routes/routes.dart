@@ -1,0 +1,30 @@
+abstract class Routes {
+  static const String login = '/login';
+  static const String signup = '/signup';
+  static const String forgotPassword = '/forgotPassword';
+  static const String home = '/home';
+  static const String listOrders = '/orders';
+  static const String orderDetails = '/orderDetails';
+  static const String pendingOrderDetails = '/pendingOrderDetails';
+  static const String ongoingOrderDetails = '/ongoingOrderDetails';
+  static const String completeOrderDetails = '/completeOrderDetails';
+  static const String cancelOrderDetails = '/cancelOrderDetails';
+  static const String currentOrderDetails = '/currentOrderDetails';
+  static const String viewMapOrder = '/viewMapOrder';
+  static const String createOrder = '/createOrder';
+  static const String pickUpLocation = '/pickUpLocation';
+  static const String pickUpSearch = '/pickUpSearch';
+  static const String dropOffLocation = '/dropOffLocation';
+  static const String dropOffSearch = '/dropOffSearch';
+  static const String midStopLocation = '/midStopLocation';
+  static const String midStopSearch = '/midStopSearch';
+  static const String selectVehicle = '/selectVehicle';
+  static const String confirmOrder = '/confirmOrder';
+  static const String profile = '/profile';
+  static const String editProfile = '/editProfile';
+  static const String changePassword = '/changePassword';
+  static const String wallet = '/wallet';
+  static const String topUp = '/topUp';
+  static const String favoriteDriver = '/favoriteDriver';
+  static const String settings = '/settings';
+}
